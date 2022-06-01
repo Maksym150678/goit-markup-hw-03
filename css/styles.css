@@ -22,6 +22,15 @@ img {
     display: block;
 }
 
+section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.portfolio-section {
+    list-style: none;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -200,16 +209,6 @@ p {
     display: block;
     margin-left: 50px;
 }
-
-/*.nav-item-studio,
-.nav-item-portfolio,
-.nav-item-contacts,
-.contacts-item-mail,
-.contacts-item-tel {
-    display: block;
-    margin-top: 32px;
-    margin-bottom: 32px;
-}*/
 
 .nav-link-studio,
 .nav-link-portfolio,
@@ -393,15 +392,13 @@ h3 {
 
 
 
-.activity {
-    padding-bottom: 94px;
-}
+/*
 
 .title-activity {
     display: block;
     margin-top: 0;
     margin-bottom: 0;
-}
+}*/
 
 
 .activity .nav-item+.nav-item,
@@ -415,12 +412,6 @@ h3 {
     width: calc((100% - 60px) /3);
 }
 
-.services-img {
-    display: block;
-}
-
-
-
 .container-portfolio-poster {
     padding: 24px 24px;
     border-bottom: 1px solid #EEEEEE;
@@ -429,10 +420,10 @@ h3 {
     margin-top: 0;
 }
 
-.portfolio-poster {
+/*.portfolio-poster {
     display: block;
     justify-content: center;
-}
+}*/
 
 .team-persona {
     padding-top: 30px;
@@ -443,9 +434,6 @@ h3 {
 
 .team {
     background: #F5F4FA;
-    padding-bottom: 94px;
-    padding-top: 94px;
-
 
 
 
@@ -566,10 +554,9 @@ h3 {
 }
 
 .benefits {
-    padding-top: 94px;
-    padding-bottom: 94px;
+    padding: top 94px;
+    padding-bottom: 0;
 }
-
 
 h1 {
     margin: 0;
@@ -647,10 +634,7 @@ address {
     background: #FFFFFF;
 }
 
-.menu-nav-list {
-    list-style: none;
 
-}
 
 
 .button-filters-all,
@@ -708,60 +692,39 @@ address {
 }
 
 
+.menu-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 56px;
 
-.conteyner-portfolio-poster {
-    background: #FFFFFF;
 }
 
 .menu-nav-list {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
-    margin-bottom: 50px;
+
 
 }
 
-.button-filters-sites {
+
+.menu-nav-list> :nth-child(1) {
     margin-left: 0px;
 }
 
-.button-filters-programs {
-    margin-left: 0px;
-}
-
-.button-filters-design {
-    margin-left: 0px;
-}
-
-.button-filters-marketing {
-    margin-left: 0px;
-}
-
-
-.button-filters-all,
-.button-filters-sites,
-.button-filters-programs,
-.button-filters-design,
-.button-filters-marketing {
+.menu-nav-list>li {
     margin-bottom: 0px;
     margin-left: 8px;
 }
 
-.portfolio-section {
-    display: block;
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
-
-.button-filters-all {
-    margin-left: 0px;
-}
 
 .portfolio-list {
     list-style: none;
-    margin-top: 56px;
+    margin-top: 0px;
+    margin-left: 0;
     padding: 0;
+
 }
 
 .portfolio-poster {
@@ -770,7 +733,7 @@ address {
 
 .portfolio-subtitle {
     font-weight: 700;
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     margin-bottom: 4px;
     font-size: 18px;
     line-height: 2;
@@ -782,7 +745,7 @@ address {
 
 .portfolio-text {
     margin-top: 0;
-    margin-bottom: 20px;
+    /*margin-bottom: 20px;*/
     font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
@@ -800,6 +763,7 @@ address {
 
 
 
+
 .main-container {
     display: flex;
     align-items: center;
@@ -812,13 +776,15 @@ address {
 
 }
 
-.portfolio-list {
+/*.portfolio-list {
     max-width: 1170px;
-    margin-bottom: 94px;
+    margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
 
-}
+}*/
+
+
 
 .portfolio-item {
     width: calc((100% - 60px) / 3);
