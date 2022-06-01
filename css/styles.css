@@ -18,6 +18,10 @@ body {
     letter-spacing: var(--primary-letter-spacing);
 }
 
+img {
+    display: block;
+}
+
 .visually-hidden {
     position: absolute;
     width: 1px;
@@ -290,12 +294,6 @@ p {
 
 }
 
-.team-list {
-    margin-left: 215px;
-    margin-right: 215px;
-
-}
-
 .team-item {
     margin-left: 30px;
 }
@@ -422,7 +420,8 @@ h3 {
 }
 
 
-.conteyner-portfolio-poster {
+
+.container-portfolio-poster {
     padding: 24px 24px;
     border-bottom: 1px solid #EEEEEE;
     border-right: 1px solid #EEEEEE;
@@ -608,14 +607,6 @@ address {
 }
 
 
-
-.footer-contact-item {
-    display: block;
-    margin-top: 20px;
-    list-style: none;
-
-}
-
 .contacts-adress {
 
     font-weight: 400;
@@ -755,6 +746,12 @@ address {
 .button-filters-marketing {
     margin-bottom: 0px;
     margin-left: 8px;
+}
+
+.portfolio-section {
+    display: block;
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 .button-filters-all {
