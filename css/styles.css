@@ -392,14 +392,6 @@ h3 {
 
 
 
-/*
-
-.title-activity {
-    display: block;
-    margin-top: 0;
-    margin-bottom: 0;
-}*/
-
 
 .activity .nav-item+.nav-item,
 .activity-item+.activity-item,
@@ -420,10 +412,6 @@ h3 {
     margin-top: 0;
 }
 
-/*.portfolio-poster {
-    display: block;
-    justify-content: center;
-}*/
 
 .team-persona {
     padding-top: 30px;
@@ -524,6 +512,7 @@ h3 {
 .text-team {
     margin-top: 0;
     margin-bottom: 0;
+    color: #757575;
 
     font-size: 16px;
     line-height: 1.18;
